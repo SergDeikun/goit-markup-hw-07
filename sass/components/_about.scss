@@ -1,0 +1,42 @@
+.abot-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-list {
+    display: flex; 
+}
+
+.about-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.about-item-icons {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px; 
+    justify-content: center;
+}
+
+
+.about-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--title-collor);
+    margin-bottom: 10px;
+    width: 270px;
+}
+
+.abot-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
