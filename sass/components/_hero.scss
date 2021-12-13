@@ -43,13 +43,11 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-style: none;
-}
-
-.hero-btn {
     cursor: pointer;
+    &:hover,
+    &:focus {
+    background-color: var(--hover-color);
+    }
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
-    background-color: var(--hover-color);
-}
+
