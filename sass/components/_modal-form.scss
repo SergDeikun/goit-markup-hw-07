@@ -28,10 +28,9 @@
         border-color: var(--hover-color);
         outline: none;
     }
-}
-
-.form-input:focus + .form-icon {
-    fill: var(--hover-color);
+    &:focus + .form-icon {
+        fill: var(--hover-color);
+    }
 }
 
 .form-text-input {
@@ -63,15 +62,14 @@
         border-color: var(--hover-color);
         outline: none;
     }
-}
-
-.form-comment::placeholder {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
-    
+    &::placeholder {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.01em;
+        color: rgba(117, 117, 117, 0.5);
+        
+    }
 }
 
 .form-input-wrap {
@@ -87,17 +85,17 @@
 }
 
 .form-submit-btn {
-padding: 10px 55px 10px 56px;
-background-color: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-font-size: 16px;
-line-height: 1.88;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: #FFFFFF;
-cursor: pointer;
-margin: 30px auto;
+    padding: 10px 55px 10px 56px;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 30px auto;
 }

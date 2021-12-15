@@ -26,22 +26,20 @@
     }
 }
 
+.header-link-mail:active, .header-link-mail:focus {
+    outline: none;
+}
+
 .header-link-mail-icon {
     width: 100%;
     height: 100%;
     margin-right: 10px;
     align-items: center;
-fill: #757575;
-}
-
-.header-link-mail:active, .header-link-mail:focus {
-    outline: none;
-}
-
-
-.header-link-mail:hover .header-link-mail-icon,
-.header-link-mail:focus .header-link-mail-icon {
-    fill: var(--hover-color);
+    fill: #757575;
+    .header-link-mail:hover &,
+    .header-link-mail:focus & {
+        fill: var(--hover-color);
+    }
 }
 
 .header-tel {
@@ -54,10 +52,13 @@ fill: #757575;
     align-items: center;
     margin-right: 10px;
     fill: #757575;
+    .header-link-tel:hover &,
+    .header-link-tel:focus & {
+        fill: var(--hover-color);
+    }
 }
 
 .header-link-tel {
-    
     display: flex;
     font-weight: 500;
     font-size: 14px;
@@ -69,8 +70,8 @@ fill: #757575;
     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
-    color: var(--hover-color);
-    }
+            color: var(--hover-color);
+    } 
 }
 
 .header-link-tel:active, .header-link-tel:focus {
@@ -79,7 +80,5 @@ fill: #757575;
 
 
 
-.header-link-tel:hover .header-link-tel-icon,
-.header-link-tel:focus .header-link-tel-icon {
-    fill: var(--hover-color);
-}
+
+

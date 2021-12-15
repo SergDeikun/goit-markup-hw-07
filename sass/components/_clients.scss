@@ -38,9 +38,9 @@
 
 .client-item-icons {
     fill: #AFB1B8;
-}
-
-.client-link:hover .client-item-icons,
-.client-link:focus .client-item-icons {
+    .client-link:hover &,
+    .client-link:focus & {
         fill: var(--hover-color);
     }
+}
+
