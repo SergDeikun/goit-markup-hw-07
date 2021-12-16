@@ -3,15 +3,7 @@
     padding-bottom: 94px;
 } 
 
-.content-list {
-    display: flex;
-}
-
-.content-item:not(:last-child) {
-    margin-right: 30px;
-}
-
-.content-title {
+.content__title {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
@@ -21,11 +13,19 @@
     margin-bottom: 50px;
 }
 
-.content-list-wrap {
+.content__list {
+    display: flex;
+}
+
+.content__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.content__item-wrap {
     position: relative;
 }
 
-.list-text-wrap {
+.content__text-wrap {
     width: 100%;
     height: 70px;
     display: flex;
@@ -38,7 +38,7 @@
     background-color: rgba(47, 48, 58, 0.8);
 }
 
-.content-list-text {
+.content__text {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;

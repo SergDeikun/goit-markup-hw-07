@@ -1,15 +1,20 @@
 
-.header-navigation {
+.header__navigation {
     display: flex;
     align-items: center;
 }
 
-.header-item:not(:last-child) {
+.header-nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav__item:not(:last-child) {
     margin-right: 50px;
     position: relative;
 }
 
-.header-link {
+.header-nav__link {
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
@@ -24,7 +29,7 @@
     &:focus {
         color: var(--hover-color);
     }
-    &-current::after {
+    &--current::after {
         content: "";
         height:4px;
         width: 100%;
@@ -37,7 +42,8 @@
     }
 }
 
-.header-link:active, .header-link:focus {
+.header-nav__link:active, 
+.header-nav__link:focus {
     outline: none;
 }
 
