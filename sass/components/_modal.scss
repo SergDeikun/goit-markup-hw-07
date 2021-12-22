@@ -38,7 +38,7 @@
     }
 } 
 
-.modal-close {
+.modal__close-btn {
     width: 30px;
     height: 30px;
     background: #FFFFFF;
@@ -54,9 +54,9 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-icon {
-    .modal-close:hover &,
-    .modal-close:focus & {
+.modal__icon {
+    .modal__close-btn:hover &,
+    .modal__close-btn:focus & {
         fill: var(--hover-color);
     }
 }
